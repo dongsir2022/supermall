@@ -8,10 +8,7 @@
   import TabbarItem from "@/components/commen/TabbarItem";
 
   export default {
-    name: "Tabbar",
-    components: {
-      TabbarItem
-    }
+    name: "Tabbar"
   }
 </script>
 

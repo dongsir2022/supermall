@@ -1,6 +1,4 @@
 <template>
-  <div id="main-tab-bar">
-    <router-view></router-view>
     <Tabbar>
       <TabbarItem path="/home">
         <img slot="item-icon" src="@/assets/img/tabbar/home.png">
@@ -23,7 +21,6 @@
         <div slot="item-text">我的</div>
       </TabbarItem>
     </Tabbar>
-  </div>
 </template>
 
 <script>
